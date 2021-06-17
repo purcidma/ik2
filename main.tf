@@ -44,5 +44,5 @@ module "terraform-intersight-iks" {
   load_balancers = 3
   # Organization and Tag
   organization = var.organization
-  tags         = var.tags
+  #tags         = var.tags
 }
