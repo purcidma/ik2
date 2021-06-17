@@ -43,6 +43,6 @@ module "terraform-intersight-iks" {
   master_count = 1
   load_balancers = 3
   # Organization and Tag
-  organization = "default"
+  organization = var.organization
   #tags         = var.tags
 }
